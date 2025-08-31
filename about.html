@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Me | Aleks Gornik</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config = { darkMode: 'class' }</script>
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 dark:text-gray-100 text-gray-800 font-sans">
+<header class="bg-white dark:bg-gray-800 shadow-md sticky top-0 z-10">
+<div class="max-w-5xl mx-auto flex justify-between items-center p-4">
+<h1 class="text-xl font-bold">Aleks Gornik</h1>
+<nav class="flex items-center space-x-6">
+<a href="index.html" class="hover:text-blue-600 dark:hover:text-blue-400">Home</a>
+<a href="about.html" class="hover:text-blue-600 dark:hover:text-blue-400">About</a>
+<a href="cv.html" class="hover:text-blue-600 dark:hover:text-blue-400">CV</a>
+<a href="projects.html" class="hover:text-blue-600 dark:hover:text-blue-400">Projects</a>
+<a href="contact.html" class="hover:text-blue-600 dark:hover:text-blue-400">Contact</a>
+<button id="darkToggle" class="ml-2 px-3 py-1 rounded bg-gray-200 dark:bg-gray-700 dark:text-white">🌙 / ☀️</button>
+</nav>
+</div>
+</header>
+
+
+<section class="max-w-4xl mx-auto px-4 py-16">
+  <h2 class="text-3xl font-semibold mb-6">About Me</h2>
+  
+  <div class="flex flex-col md:flex-row items-center md:items-start md:space-x-8">
+    <img src="assets/me.jpg" 
+         alt="Aleks Gornik" 
+         class="w-full max-w-sm rounded-2xl shadow-md object-cover mb-6 md:mb-0">
+    <div class="flex-1">
+      <p class="text-lg leading-relaxed mb-4">
+        Hi, I’m <span class="font-bold">Aleks</span>, an engineer passionate about <span class="font-bold">Machine Learning</span> and building amazing <span class="font-bold">products</span>. I’m delusionally optimistic and full of energy. I love building products that make a difference and I'm not afraid to take risks. I have an entrepreneurial spirit and thrive where I can make a big impact.
+      </p>
+      <p class="text-lg leading-relaxed">
+        I love writing code for products that help solve real problems. I also enjoy speaking to clients and customers, as well as being on stage showcasing technology. I don’t fear the live demo; as a matter of fact, I love it. I enjoy the spotlight and have had the privilege to demo products and technology to large audiences many times now.
+      </p>
+    </div>
+  </div>
+
+  <div class="mt-16">
+    <h3 class="text-2xl font-semibold mb-4">Fun Facts</h3>
+    <ul class="list-disc list-inside space-y-2 text-lg leading-relaxed">
+      <li>I was born in Tomaszów Lubelski, a small town in Poland, and grew up in Brixton, the heart of South London.</li>
+      <li>I played semi-pro football from the age of 13 to 17 (like almost every boy in South London).</li>
+      <li>I currently live in Kraków, Poland. I came back to my motherland after a short 20-year break, haha. Kraków is great, I recommend you visit!</li>
+      <li>I come from a family of business owners in construction and farming.</li>
+    </ul>
+  </div>
+
+  <div class="mt-16">
+    <h3 class="text-2xl font-semibold mb-4">My Experience</h3>
+    
+    <div class="mt-8">
+      <h4 class="text-xl font-bold">HSBC</h4>
+      <p class="text-lg leading-relaxed mt-2">
+        I’m currently at the HSBC office in Kraków, where I’m on a graduate engineering program as a software engineer.
+      </p>
+      </div>
+
+    <div class="mt-8">
+      <h4 class="text-xl font-bold">SumUp</h4>
+      <p class="text-lg leading-relaxed mt-2">
+        I worked at SumUp as an AI Engineering intern for three months. The experience was great and intense. My team, led by
+        <a 
+        href="https://www.linkedin.com/in/andremarcosperez/" 
+        class="text-blue-600 dark:text-blue-400 hover:underline"
+        target="_blank" 
+        rel="noopener noreferrer">
+        Andre Perez
+        </a>
+         managed to deploy an AI-powered lead generation feature to an existing app called Sidekick. SumUp has field sales reps all around the UK trying to sell SumUp hardware, which is a very difficult job, especially if you’re just starting out. We built this product to help them target the right businesses using Machine Learning. Based on existing data at SumUp, we built an ML model that learned how to identify ‘good’ leads. We looked at everything: business age, location, price levels, estimated monthly turnover, multi-location status, and much more.
+      </p>
+      <p class="text-lg leading-relaxed mt-2">
+        Since we scraped so much data on businesses, we also decided to summarise the information into key details using the GPT API. The result was a really cool feature that would display the best businesses for sales in a UK postcode, along with AI-summarised business insights.
+      </p>
+        
+      <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+        
+        <div class="aspect-w-16 aspect-h-9">
+            <iframe 
+                class="w-full h-full rounded-lg shadow-md" 
+                src="https://www.youtube.com/embed/NjskeaCTvDs" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <div class="aspect-w-16 aspect-h-9">
+            <iframe 
+                class="w-full h-full rounded-lg shadow-md" 
+                src="https://www.youtube.com/embed/4X_yQcrtm6I" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+
+      </div>
+    </div>
+    
+    <div class="mt-8">
+      <h4 class="text-xl font-bold">Cambridge Consultants</h4>
+        <p class="text-lg leading-relaxed mt-2">
+        This is a funny story because I was interviewed and joined as a hardware test engineering intern. However, I soon realised that there wasn’t much hardware work happening. I was quickly put on a 
+        <a 
+        href="https://www.cambridgeconsultants.com/project/the-first-truly-global-push-to-talk-satellite-phone-for-iridium/" 
+        class="text-blue-600 dark:text-blue-400 hover:underline"
+        target="_blank" 
+        rel="noopener noreferrer">
+        satellite communications
+        </a>
+        client project to automate some tests. This was a legacy codebase, and since I'd never written a line of code professionally before, I lost my head a bit when I got my first ticket. Once I remembered how to use Git and figured out how to move around a Linux machine, I started to get going. Three months later, the project had a full CI/CD pipeline with over 25 automated tests up and running. Well done to me.
+        </p>
+      <p class="text-lg leading-relaxed mt-2">
+        Another big highlight was working on a really cool internal R&D project titled 'Detecting Nanoparticle Motion in Tissue via Magnetic Spectroscopy'. It was great. I was writing signal processing code in Python, working in a wet lab to ensure my colleague used the correct biomarker concentrations, and building a simple op-amp in the electronics lab. I was back and forth with a physicist, figuring out how to build a safe coil that could output 10mT. I made a video for our live demo and even got to pitch the technology in front of the whole company. We somehow won the competition, even though the demo didn’t work on the day. I guess the tech was just that cool. If you're curious about the technical details, I wrote a paper on this, and it’s in my projects section.
+      </p>
+    </div>
+
+    <div class="mt-8">
+      <h4 class="text-xl font-bold">Verizon Media (Now Yahoo)</h4>
+      <p class="text-lg leading-relaxed mt-2">
+        Before I started university, I was incredibly lucky to get some work experience at a tech company in London. I had the full "tech bro" experience at 17: a MacBook Pro, a fancy building in Central London, daily stand-ups, free breakfast every day, table tennis, and pool. But seriously, I was introduced to very important concepts that I use every day, like GitHub, branching techniques, agile methodology, and writing Python code in a professional setting where people actually need to review your code. In my opinion, those were the most important three weeks of my professional life.
+      </p>
+    </div>
+
+    <h4 class="text-xl font-bold mt-12">That's me</h4>
+
+  </div>
+
+</section>
+
+
+<footer class="bg-white dark:bg-gray-800 shadow-inner py-6 mt-12">
+<p class="text-center text-gray-500 dark:text-gray-400 text-sm">© 2025 Aleks Gornik. Built with ❤️ and TailwindCSS.</p>
+</footer>
+
+
+<script src="js/script.js"></script>
+<script>
+  tailwind.config = { 
+    darkMode: 'class',
+    plugins: [
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+</script>
+</body>
+</html>
